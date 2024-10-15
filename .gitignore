@@ -1,0 +1,47 @@
+# Ignore node_modules in both root and client directories
+node_modules/
+client/node_modules/
+
+# Ignore lock files
+package-lock.json
+client/package-lock.json
+
+# Ignore build output (adjust if your output folder is different)
+dist/
+client/dist/
+
+# Ignore .env files for sensitive data (adjust based on your project's setup)
+.env
+client/.env
+
+# Ignore log files and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Vite cache (if applicable)
+.vite
+
+# Ignore Eslint cache
+client/.eslintcache
+
+# Ignore coverage output (for testing)
+coverage/
+
+# Ignore IDE files (VSCode or other)
+.vscode/
+.idea/
+
+# Ignore Git-related files in the client folder
+client/.git/
+
+# Optional: Ignore compiled JavaScript files (if using TypeScript)
+*.js.map
+client/*.js.map
+
+# Optional: Ignore public folder if it's generated dynamically
+client/public/
